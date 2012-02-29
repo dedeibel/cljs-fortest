@@ -3,6 +3,8 @@
 
 a little test to demonstrate different behaviour between cljs and clj.
 
+BUILD
+
 Run cljs version, prereq cljsc in path and firebug.
 
 $ make
@@ -12,4 +14,29 @@ Run clj version, prereq clojurescript.jar in CLASSPATH
 
 $ make clj
 
+OUTPUT
+
+With clojure 1.3 and clojurescript (git master 89fb927f8f)
+
+clj output:
+
+Hello world
+Test1: ok
+Test2: ok
+Test 2 Content:
+0, 1
+1, 0
+1, 1
+
+cljs output:
+
+Hello world
+Test1: ok
+Test2: nok
+Test 2 Content:
+1, 0
+1, 1
+
+
 LICENSE free to copy, don't blame me for anything.
+

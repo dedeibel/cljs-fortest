@@ -1,5 +1,5 @@
 
-all: foretest.js
+all: fortest.js
 
 fortest.js: fortest.cljs
 	cljsc $< > $@
