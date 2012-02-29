@@ -1,0 +1,15 @@
+
+ fortest
+
+a little test to demonstrate different behaviour between cljs and clj.
+
+Run cljs version, prereq cljsc in path and firebug.
+
+$ make
+open index.html
+
+Run clj version, prereq clojurescript.jar in CLASSPATH
+
+$ make clj
+
+LICENSE free to copy, don't blame me for anything.
